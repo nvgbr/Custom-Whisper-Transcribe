@@ -1,0 +1,27 @@
+[project]
+name = "whisper_transcribe"
+version = "0.1.6"
+readme = "README.md"
+dependencies = [
+    "pytube",
+    "rich",
+    "pathvalidate",
+    "openai",
+    "emoji",
+
+]
+
+[project.optional-dependencies]
+dev = [
+    "onepw_receiver @ git+https://github.com/nvgbr/onepw_receiver.git",
+    "python-dotenv",
+]
+
+[project.scripts]
+whisper-transcribe = "whisper_transcribe.whisper_transcribe:main"
+
+[build-system]
+requires = [
+    "setuptools >= 40.9.0"
+]
+build-backend = "setuptools.build_meta"
