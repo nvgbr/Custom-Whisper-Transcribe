@@ -45,13 +45,14 @@ audio file if it's not located in the Downloads folder.
 Once the processing is complete, the script will open the folder containing the output files in your default file
 explorer.
 
-## Customization (to be implemented)
+## Planned
 
-The script includes several configuration options that you can customize to suit your needs. These include:
-
-Adjusting the silence detection parameters for the audio splitting
-
-Changing the output file naming conventions
+- [ ] Several configuration options that you can customize to suit your needs.
+- [ ] Adjusting the silence detection parameters for the audio splitting
+- [ ] Changing the output file naming conventions
+- [ ] Customizing the output folder
+- [ ] Transcription of other publicly available video/audio sources
+- [ ] ...
 
 
 ## Contribution
