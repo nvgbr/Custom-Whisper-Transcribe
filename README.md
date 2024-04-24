@@ -8,7 +8,8 @@ features to help you process and manage your transcripts.
 
 ## Installation
 
-You'll need to have an OpenAI API key, which you should set as an environment variable named OPENAI_API_KEY.
+You'll need to have an **OpenAI API key,** which you should set as an environment variable named OPENAI_API_KEY.
+If you do not have an API key, here you'll find more information: https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key
 
 To use this script, you'll need to have Python 3.11 or later installed on your system. You can install the script using
 pip:
