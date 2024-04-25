@@ -20,8 +20,8 @@ from rich.status import Status
 from rich.theme import Theme
 from srt import Subtitle
 
-from helpers.process_audio_files import get_file_size, get_pydub_audio_segment, split_audio_file
-from helpers.word_grouping import main as word_grouping
+from .helpers.process_audio_files import get_file_size, get_pydub_audio_segment, split_audio_file
+from .helpers.word_grouping import main as word_grouping
 
 custom_theme = Theme(
         {"success": "grey3 on pale_green1 bold", "error": "grey93 on red bold"}
